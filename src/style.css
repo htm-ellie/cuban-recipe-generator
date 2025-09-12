@@ -9,38 +9,56 @@ body {
   margin: 0 auto;
   max-width: 600px;
 }
-
+a {
+  color: #6f88c4;
+}
 h1 {
   font-weight: 800;
   font-size: 36px;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
-  color: #6f88c4;
+  color: #2c251d;
   text-align: center;
 }
 footer {
   text-align: center;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
+  color: #2c251d;
 }
 form {
   padding: 30px;
   background-color: #b4c4e5;
   border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(215, 237, 235, 0.9);
 }
 .recipe-search-input {
   background: rgba(255, 245, 220, 0.6);
   padding: 10px;
+  border: 1px solid #6f88c4;
   border-radius: 10px;
-
   font-size: 14px;
-  width: 50%;
+  width: 80%;
+  line-height: 10px;
+  color: #2c251d;
 }
 .submit-button {
   background: #6f88c4;
   padding: 10px;
+  border: none;
   border-radius: 10px;
-
+  margin-left: 8px;
   font-size: 14px;
-  color: #fff5dc;
+  color: #2c251d;
+}
+.recipe-response {
+  color: #2c251d;
+  font-size: 16px;
+  padding: 30px;
+  background: #b4c4e5;
+  line-height: 1.5px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border-left: 5px solid #6f88c4;
+  box-shadow: 5px 5px 5px rgba(215, 237, 235, 0.9);
 }
