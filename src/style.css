@@ -55,6 +55,11 @@ form {
   font-size: 14px;
   color: #2c251d;
 }
+.submit-button:hover {
+  background: rgba(215, 237, 235);
+  cursor: pointer;
+  transition: ease-in-out 200ms;
+}
 .recipe-response {
   color: #2c251d;
   font-size: 16px;

@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Cuban Recipe Generator</title>
   </head>
   <body>
@@ -18,7 +19,7 @@
         <h1>AI Cuban Recipe Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="recipe-generator-form">
           <input
             type="text"
             placeholder="What dish do you want to cook?"
@@ -28,9 +29,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div id="recipe-response" class="recipe-response">
-          Receipe will go here
-        </div>
+        <div id="recipe-response" class="recipe-response"></div>
       </main>
     </div>
     <footer>
