@@ -4,11 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <title>Cuban Recipe Generator</title>
+    <title>AI Cuban Recipe Generator</title>
   </head>
   <body>
-    <h1>Welcome to the AI Cuban Recipe Generator</h1>
-    <script src="src/index.js"></script>
+    <header>
+      <h1>AI Cuban Recipe Generator</h1>
+    </header>
+    <main>
+      <form>
+        <input
+          type="text"
+          placeholder="What dish do you want to cook?"
+          autofocus
+          required
+        />
+        <input type="submit" />
+      </form>
+      <div id="recipe-response">Receipe will go here</div>
+    </main>
+
     <footer>
       This AI project was Coded by
       <a href="https://github.com/htm-ellie" target="_blank">Ellie Litt</a> and
@@ -21,5 +35,6 @@
       and hosted on
       <a href="https://cocinandoconai.netlify.app/" target="_blank">Netlify</a>
     </footer>
+    <script src="src/index.js"></script>
   </body>
 </html>
