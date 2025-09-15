@@ -7,7 +7,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .container {
-  background: ;
   padding: 20px;
   border-radius: 10px;
   margin: 0 auto;
@@ -66,7 +65,7 @@ form {
   font-size: 14px;
   padding: 30px;
   background: #b4c4e5;
-  line-height: 2px;
+  line-height: 20px;
   margin-top: 20px;
   border-radius: 10px;
   border-left: 5px solid #6f88c4;
