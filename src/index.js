@@ -13,7 +13,7 @@ function generateRecipe(event) {
   let receipeQuery = document.querySelector("#recipe-query");
   let apiKey = "84ob6879a3t305ff0c4b95aea130d3b6";
   let context =
-    "You are a chef specializing in traditional cuban cuisine. Provide one recipe using the imperial system of measurements. Make sure to create a recipe based on the user dish from the user instructions. format your response with an ingredients list and an instructions list, for example <p>these are the ingredients</p> </br> <p>these are the instructions</p>. seperate each line with a <br /> and provide the ingredients and the instructions in paragraph form.";
+    "You are an AI chef specializing in traditional cuban cuisine. Provide one recipe using the imperial system of measurements. Make sure to create a recipe based on the user dish from the user instructions. format your response with an ingredients list a simplified instructions list, and ingredients list. Please generate a recipe in HTML, and only provide the basic HTML. Do not include ```html at the beginning or ``` at the end.";
   let prompt = `User instructions: generate a traditional cuban recipe for ${receipeQuery.value}`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
