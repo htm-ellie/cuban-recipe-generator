@@ -1,5 +1,4 @@
 function displayRecipe(response) {
-  
   new Typewriter("#recipe-response", {
     strings: response.data.answer,
     autoStart: true,
@@ -20,8 +19,6 @@ function generateRecipe(event) {
   let recipeResponse = document.querySelector("#recipe-response");
   recipeResponse.classList.remove("hidden");
   recipeResponse.innerHTML = `<div class="generating">Generating recipe for ${recipeQuery.value}..</div>`;
-
-  
 
   axios.get(apiUrl).then(displayRecipe);
 }
